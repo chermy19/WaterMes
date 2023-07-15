@@ -30,6 +30,11 @@ namespace WaterMes
 
         private void button1_Click(object sender, EventArgs e)
         {
+            tabControl1.SelectedTab = tabPage1;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             tabControl1.SelectedTab = tabPage2;
         }
     }
